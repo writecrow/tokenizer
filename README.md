@@ -1,2 +1,3 @@
 # tokenizer
-A word-boundary-based tokenizer written in PHP
+A word-boundary-based tokenizer written in PHP. 
+

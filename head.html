@@ -12,10 +12,6 @@
   <meta property="og:url" content="https://tokenizer.corporaproject.org/" />
   <meta property="og:site_name" content="Text tokenizer, by Crow" />
   <link rel="canonical" href="https://tokenizer.corporaproject.org/" />
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css">
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
 <style>
   .textbox {
     height: -webkit-fill-available;
@@ -27,5 +23,54 @@
   .container {
     max-width: 1200px;
   }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    background: #3d3d3d;
+    color: #fff;
+    padding: 0.5rem;
+  }
+  nav a {
+    color: #fff;
+  }
+  nav a:hover,
+  nav a:focus {
+    color: whitesmoke;
+  }
+  form {
+    margin-top: 2rem;
+    max-width: 800px;
+    margin: auto;
+  }
+  textarea {
+    margin: 1rem 0 1rem 0;
+    width: 100%;
+    min-height: 200px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+  }
+  .btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    cursor: pointer;
+  }
 </style>
 </head>
+<nav>
+<h1>Text tokenizer (word counter)</h1>
+<p>This demonstrates the word-splitting methodology used in <a href="https://crow.corporaproject.org">Crow, the Corpus & Repository of Writing</a>. This code is developed and maintained by the <a href="https://writecrow.org/">Crow team</a>.</p>
+<p>Source code for the tokenizer: <a href="https://github.com/writecrow/tokenizer">https://github.com/writecrow/tokenizer</a></p>
+<p>Source code for other Crow components: <a href="https://github.com/writecrow">https://github.com/writecrow/</a></p>
+</nav>
