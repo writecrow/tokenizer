@@ -7,7 +7,7 @@ namespace writecrow\Tokenizer;
  *
  * A helper class to split text on word boundaries.
  *
- * @author markfullmer <mfullmer@gmail.com>
+ * @author markfullmer <mark.writecrow@gmail.com>
  *
  * @link https://github.com/writecrow/tag-converter/
  *
