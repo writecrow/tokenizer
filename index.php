@@ -18,7 +18,7 @@ include 'head.html';
 
 echo '
 <div class="container">
-<h1>Text Tokenizer (Word counter)</h1>
+<h1>Text tokenizer (word counter)</h1>
 <a href="https://github.com/writecrow/tokenizer">Source code</a>
 <hr />
 </div>
@@ -26,12 +26,12 @@ echo '
   <form action="//' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] . '" method="POST">
     <div class="row">
       <div class="six columns">
-        <label for="text">Tagged text to be tokenized</label>
+        <label for="text">Text to be tokenized</label>
         <em>Paste your text below.</em>
-        <textarea class="u-full-width textbox" placeholder="Place tagged text here..." name="text">' . $file . '</textarea>
+        <textarea class="u-full-width textbox" placeholder="Place your text here..." name="text">' . $file . '</textarea>
       </div>
       <div class="six columns">
-      <input type="submit" value="Tokenize (count words)" />
+      <input type="submit" value="Tokenize (& count words)" />
       </div>
     </div>
   </form>';
