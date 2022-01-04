@@ -1,0 +1,31 @@
+{
+    "name": "writecrow/tokenizer",
+    "description": "Splits text on word boundaries",
+    "type": "library",
+    "keywords": ["corpus", "tokens"],
+    "homepage": "https://tokenizer.corporaproject.org/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mark Fullmer",
+            "email": "mark.writecrow@gmail.com",
+            "homepage": "https://markfullmer.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "mark.writecrow@gmail.com",
+        "issues": "https://github.com/writecrow/tag_converter/issues",
+        "source": "https://github.com/writecrow/tag_converter"
+    },
+    "autoload": {
+        "psr-4": { "writecrow\\Tokenizer\\": ["src/", "test/"] }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7"
+    },
+    "suggest": {
+        "ext-mbstring": "For best performance",
+        "symfony/polyfill-mbstring": "If you can't install ext-mbstring"
+    }
+}
