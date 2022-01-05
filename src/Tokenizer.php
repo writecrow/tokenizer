@@ -28,6 +28,10 @@ class Tokenizer {
     // Remove URLs.
     $regex = "@(https?://([-\w\.]+[-\w])+(:\d+)?(/([\w/_\.#-]*(\?\S+)?[^\.\s])?)?)@";
     $string = preg_replace($regex, ' ', $string);
+
+    // Convert smart apostrophes/quotes.
+    $string = iconv('UTF-8', 'ASCII//TRANSLIT', $string);
+
     // This regex is similar to any non-word character (\W),
     // but retains the following symbols: @'#$%
     $tokens = preg_split("/\s|[,.!?:*&;\"()\[\]_+=”]/", $string);
